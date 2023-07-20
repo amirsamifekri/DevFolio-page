@@ -1,0 +1,444 @@
+
+
+
+header{
+background-image: url('../images/hero-bg.jpg');
+background-size:90% 100%;
+
+/* background-color: aqua; */
+height: 100vh;
+position: relative;
+}
+
+.myHeader a:hover{
+    color: rgba(0, 0, 255, 0.6) !important;
+  
+}
+
+
+.navbar{
+    background-color: transparent !important;
+    display: flex;
+    justify-content: flex-start; 
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+ 
+} 
+
+.navbar a{
+color: blue !important;
+font-size: larger;
+}
+
+.navbar a:hover{
+    color: white;
+    }
+
+
+.navbar-collapse{
+    flex-grow: 0;
+    margin-right: 20px;
+}
+
+
+.navbar-collapse li{
+    margin-right: 50px;
+}
+
+
+.dropdown-menu{
+    background-color: transparent;
+}
+
+
+
+
+.headerContent p::after{
+    content: "";
+    animation: letters infinite 5s;
+
+}
+
+
+@keyframes letters  {
+
+    0%{
+        content: "F|"
+    }
+
+    3%{
+        content: "Fr|"
+        
+    }
+
+    6%{
+        content: "Fre|"
+        
+    }
+
+
+    9%{
+        content: "Free|"
+        
+    }
+
+    12%{
+        content: "Freel|"
+        
+    }
+
+    15%{
+        content: "Freela|"
+        
+    }
+
+    18%{
+        content: "Freelan|"
+        
+    }
+
+    21%{
+        content: "Freelanc|"
+        
+    }
+
+    24%{
+        content: "Freelance|"
+        
+    }
+
+    27%{
+        content: "Freelancer|"
+        
+    }
+
+    30%{
+        content: "Freelance|"
+        
+        
+    }
+
+    33%{
+        content: "Freelanc|"
+        
+    }
+
+    36%{
+        content: "Freelan|"
+        
+    }
+
+    39%{
+        content: "Freela|"
+        
+    }
+
+    42%{
+        content: "Freel|"
+        
+    }
+
+    45%{
+        content: "Free|"
+        
+    }
+
+    48%{
+        content: "Fre|"
+        
+    }
+
+    51%{
+        content: "Fr|"
+        
+    }
+
+    54%{
+        content: "F|"
+        
+    }
+
+    57%{
+        content: "|"
+        
+    }
+
+    58%{
+        content: "|"
+        
+    }
+
+    59%{
+        content: "|"
+        
+    }
+
+    60%{
+        content: "|"
+        
+    }
+
+    63%{
+        content: "P|"
+        
+    }
+
+    65%{
+        content: "Ph|"
+        
+    }
+
+    67%{
+        content: "Pho|"
+        
+    }
+
+    69%{
+        content: "Phot|"
+        
+    }
+
+    71%{
+        content: "Photo|"
+        
+    }
+
+    73%{
+        content: "Photog|"
+        
+    }
+
+    75%{
+        content: "Photogr|"
+        
+    }
+
+    77%{
+        content: "Photogra|"
+        
+    }
+
+    80%{
+        content: "Photograp|"
+        
+    }
+
+    82%{
+        content: "Photograph|"
+        
+    }
+
+    84%{
+        content: "Photographe|"
+        
+    }
+
+    86%{
+        content: "Photographer|"
+        
+    }
+
+
+    87%{
+        content: "Photographe|"
+        
+    }
+
+
+    88%{
+        content: "Photograph|"
+        
+    }
+
+
+    89%{
+        content: "Photograp|"
+        
+    }   
+
+    90%{
+        content: "Photogra|"
+        
+    }
+
+
+    91%{
+        content: "Photogr|"
+        
+    }
+
+
+    92%{
+        content: "Photog|"
+        
+    }
+
+
+    93%{
+        content: "Photo|"
+        
+    }
+
+    94%{
+        content: "Phot|"
+        
+    }
+
+    95%{
+        content: "Pho|"
+        
+    }
+
+    96%{
+        content: "Ph|"
+        
+    }
+
+    97%{
+        content: "P|"
+        
+    }
+
+    98%{
+        content: "|"
+        
+    }
+
+    99%{
+        content: "|"
+        
+    }
+
+    100%{
+        content: "|"
+        
+    }
+
+
+}
+
+.headerContent{
+    flex-direction: column;
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+.line{
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+
+.line::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 6rem;
+    bottom: 0;
+    left: 50%;
+
+    background-color: blue;
+
+    transform: translate(-50%);
+
+}
+
+
+
+.part{
+    background-color: white;
+    
+}
+
+
+.part i{
+    padding-top: 2rem;
+}
+
+
+.part h3{
+    padding: 2rem 0px;
+}
+
+.part p{
+    padding-bottom: 2rem;
+}
+
+
+
+.services i{
+/* color: red; */
+font-size: 3rem;
+border: solid 1rem blue;
+border-radius: 50%;
+height: 10rem;
+width: 10rem;
+background-color: aqua;
+}
+
+
+.services i:hover{
+background-color: blue;
+/* color:blue; */
+border-color:aqua;
+}
+
+
+.ele i{
+    padding: 1rem;
+    border: 1rem solid white;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+
+}
+
+
+/* section4 */
+
+.portfolio .cardImage{
+    overflow: hidden;
+}
+
+.portfolio img{
+    transition: all 1s;
+}
+
+.portfolio img:hover{
+    transform: scale(1.3)
+}
+
+
+/* section5 */
+
+.blog a{
+    text-decoration: none;
+    color: black;
+}
+
+.blog a:hover{
+    color: blue;
+}
+
+.card-footer img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+
+
+/* arrow */
+.arrow{
+    top: 50%;
+    right: 0.2rem;
+}
+
+.arrow a{
+    font-size: 1.5rem;
+}
